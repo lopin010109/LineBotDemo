@@ -2,20 +2,12 @@
   "name": "linebotdemo",
   "version": "1.0.0",
   "description": "紀錄 LineBot + Heroku + NodeJs + Docker + Mysql",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lopin010109/lineBotDemo.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lopin010109/lineBotDemo/issues"
-  },
-  "homepage": "https://github.com/lopin010109/lineBotDemo#readme",
   "dependencies": {
     "express": "^4.17.1",
     "linebot": "^1.5.3"
