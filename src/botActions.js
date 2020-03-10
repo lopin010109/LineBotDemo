@@ -12,7 +12,7 @@ bot.on('message', function (event) {
   const receiveText = event.message.text;
   console.log('接受訊息', receiveText);
 
-  // 回覆訊息 123
+  // 回覆訊息
   sendText(receiveText);
 
   function sendText(replyText) {
