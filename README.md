@@ -34,7 +34,6 @@ docker run -itd --name my-db -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root mysql:5.7
 # Mysql => clearDB 
 Heroku 提供了DB空間使用，我選擇 clearDB 來使用
 輸入 heroku config | grep CLEARDB_DATABASE_URL 拿到 DB 資訊
-mysql://b7ab37b74f8040:d1174f4d@us-cdbr-iron-east-04.cleardb.net/heroku_0cb64da54a6f3cd?reconnect=true
 
 Heroku 官方使用文件 
 https://devcenter.heroku.com/articles/cleardb#using-cleardb-with-python-django
